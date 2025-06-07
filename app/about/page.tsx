@@ -49,9 +49,8 @@ export default function AboutPage() {
               <h2 className="mb-6 text-3xl font-bold">Our Story</h2>
               <div className="space-y-4 text-gray-700">
                 <p>
-                  CamTour was founded in 2015 by a group of passionate Cameroonian travel enthusiasts who saw the need
-                  for authentic, responsible tourism experiences in their beautiful country. What began as a small
-                  operation offering guided hikes up Mount Cameroon has grown into Cameroon's premier tour operator.
+                  CamTour was founded in 2025 by a group of ICT university students who are passionate Cameroonian travel enthusiasts and saw the need
+                  for authentic, responsible tourism experiences in their beautiful country. 
                 </p>
                 <p>
                   Our mission is to showcase the incredible diversity of Cameroon - often called "Africa in Miniature" -
@@ -59,7 +58,7 @@ export default function AboutPage() {
                   when done right, can be a powerful force for positive change.
                 </p>
                 <p>
-                  Today, CamTour offers a wide range of experiences across Cameroon, from wildlife safaris to cultural
+                  CamTour offers a wide range of experiences across Cameroon, from wildlife safaris to cultural
                   immersions, beach getaways to mountain adventures. What hasn't changed is our commitment to
                   authenticity, sustainability, and creating unforgettable memories for our guests.
                 </p>
@@ -169,25 +168,31 @@ export default function AboutPage() {
               {
                 name: "John Paul",
                 role: "Founder & CEO",
-                bio: "Former park ranger with 15+ years of experience in Cameroon's tourism industry.",
+                bio: "Current Student at the ICT University's bachelor in SEN Program with years of experience in Cameroon's tourism industry.",
                 image: "/placeholder.svg?height=400&width=400",
               },
               {
                 name: "Gnowa Kevin",
                 role: "Operations Director",
-                bio: "Tourism management expert ensuring smooth experiences for all our guests.",
+                bio: "Current Student at the ICT University's bachelor in Cybersecurity Program ensuring smooth experiences for all our guests.",
                 image: "/placeholder.svg?height=400&width=400",
               },
               {
-                name: "Fakam Fakam",
+                name: "Fakam Fankam",
                 role: "Head Guide",
-                bio: "Certified mountain guide with extensive knowledge of Cameroon's landscapes.",
+                bio: "Current Student at the ICT University's bachelor in SEN Program with extensive knowledge of Cameroon's landscapes.",
+                image: "/placeholder.svg?height=400&width=400",
+              },
+              {
+                name: "Asobo Khan",
+                role: "Travel Agent",
+                bio: "Current Student at the ICT University's bachelor in SEN Program with vast knowledge on the comfort and reliabilty of travel agencies.",
                 image: "/placeholder.svg?height=400&width=400",
               },
               {
                 name: "Ayuk Etang",
                 role: "Cultural Experience Manager",
-                bio: "Anthropologist dedicated to authentic cultural exchange and community partnerships.",
+                bio: "Current Student at the ICT University's bachelor in SEN Program dedicated to authentic cultural exchange and community partnerships.",
                 image: "/placeholder.svg?height=400&width=400",
               },
             ].map((member, index) => (
